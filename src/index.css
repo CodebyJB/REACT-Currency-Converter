@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+button,
+input,
+select {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.app {
+  margin: 3rem;
+  text-align: center;
+}
+h1 {
+  padding: 2rem 0;
+}
+.currency--input select,
+.currency--input input,
+.currency--swap {
+  font-size: 1.25rem;
+  padding: 0.25rem;
+}
+.currency--input select {
+  margin-right: 1rem;
+}
+.currency--display {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  color: #5fbaa7;
+}
